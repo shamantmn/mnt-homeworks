@@ -1,5 +1,5 @@
 ---
-- name: Install_Clickhouse
+- name: Install Clickhouse
   hosts: clickhouse
   handlers:
     - name: Start clickhouse service
