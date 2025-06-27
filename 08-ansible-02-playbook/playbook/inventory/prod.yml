@@ -1,7 +1,6 @@
----
-all:
-#clickhouse:
- hosts:
-  clickhouse-01:
-   ansible_host: 
-     127.0.0.1
+--- 
+ clickhouse:
+   hosts:
+     clickhouse-01:
+        ansible_host: 127.0.0.1
+        
